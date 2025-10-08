@@ -6,7 +6,7 @@ This is **legacy project** (2016-2017) of mine, published here for edutional pur
 
 ## Overview
 
-KFuzz is a modular Windows kernel fuzzer designed for speed and high coverage when fuzzing kernel drivers without source code access. It implements several new techniques to achieve near-native performance while providing comprehensive code coverage analysis.
+KFuzz is a modular Windows kernel instrumentation (and fuzzing) framework designed for speed and high coverage when fuzzing kernel drivers without source code access. It implements several new techniques to achieve near-native performance while providing comprehensive code coverage analysis.
 
 ## Instrumentation
 
