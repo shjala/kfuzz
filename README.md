@@ -10,7 +10,7 @@ KFuzz is a modular Windows kernel instrumentation (and fuzzing) framework design
 
 ## Instrumentation
 
-KFuzz solves the challenge of instrumenting binary kernel drivers by using traditional 5-byte long jumps for large basic blocks (≥5 bytes) and a novel approach for small basic blocks (<5 bytes) by leveraging illegal instruction exceptions with custom IDT handlers for 2-byte instrumentation, resulting in complete coverage of all basic blocks with minimal overhead.
+KFuzz solves the challenge of instrumenting binary kernel drivers by using traditional 5-byte long jumps for large basic blocks (≥5 bytes) and a novel approach for small basic blocks (<5 bytes) by leveraging illegal instruction exceptions with custom IDT handlers for 2-byte instrumentation (although later removed because post/pre-dominator blocks would mostly cover those), resulting in complete coverage of all basic blocks with minimal overhead.
 
 It uses shared memory counters to provide direct user-mode access to edge counters for efficient data collection. To eliminate some disk I/O bottlenecks it can store test cases in a sector‑aligned flat file that bypasses filesystem (FILE_FLAG_NO_BUFFERING and FILE_FLAG_WRITE_THROUGH for no filesystem overhead), it can be placed on a network‑mapped RAM disk to remain persistent across VM crashes.
 
