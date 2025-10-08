@@ -1,6 +1,6 @@
 # KFuzz | Windows Kernel Code Coverage and Instrumentation
 
-This is **legacy project** (2016-2017) of mine, published here for edutional purposed. You have to find a way to compile it using current WDK and VS, I included sample `.vcxproj` that can be helpfull. Checkout blog post [Fuzzing and Instrumenting Windows Kernel (2017)](https://defense.sh/oldblog/fuzzing/kernel/2017/04/27/kfuzz-a-fuzzer-story.html) for some introduction.
+This is **legacy project** (2016-2017) of mine, published here for educational purposes. You have to find a way to compile it using current WDK and VS, I included sample `.vcxproj` that can be helpfull. Checkout blog post [Fuzzing and Instrumenting Windows Kernel (2017)](https://defense.sh/oldblog/fuzzing/kernel/2017/04/27/kfuzz-a-fuzzer-story.html) for some introduction.
 
 ---
 
